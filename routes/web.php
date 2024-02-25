@@ -24,3 +24,6 @@ Route::get('/', function (){
 Route::get('/add', function (){
     return view('addEvent');
 });
+Route::get('/detail', function (){
+    return view('detailevent');
+});
